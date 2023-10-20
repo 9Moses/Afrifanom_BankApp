@@ -1,0 +1,36 @@
+
+1. MySQL  Configure:**
+   - Create a MySQL database with the name bank_application.
+   - Import the provided MySQL database export file (bank_application.dql) into your MySQL database using a tool like postbird or the pgAdmin. This file contains the database schema.
+
+2. Navigate to the Project Directory:**
+  - Open the project (Bank Application ) with the IDE of your choice.
+   - Open your terminal or command prompt and navigate to the directory where you downloaded the project.
+
+3. Install Project Dependencies:**
+   - In the project directory, there are two subdirectories: one for the Express.js server (Backend) and another for the React.js (Frontend).
+   - Navigate to each subdirectory (Backend and Frontend) in separate terminal windows.
+   - In each directory, run the npm install command to install the project dependencies:
+
+   
+3. Configure Database Connection**
+   -Open db_config.js file in backEnd/config directly and set the  database connection information, such as the database host, username, password, and database name.
+
+4. Start the Express.js Server:**
+   - In the Backend directory in your terminal, run npm run dev command to start the Express.js server:
+
+
+   - The server should start and listen on a specified port (e.g., 5000) by default.
+
+5. Start the Vue.js Frontend:**
+   - In the Frontend directory, run  npm start command to start the React.js development server:
+
+   - The React.js development server should start and listen on a different port (e.g., 3000) by default.
+
+5. Access the Application:**
+   - Open a web browser and navigate to  the port specified by React.js to access your React.js frontend.
+   - The frontend will make requests to the Express.js server, which, in turn, interacts with the MySQL database.
+
+6. The Login 
+Username: admin
+Passward: 123@34
