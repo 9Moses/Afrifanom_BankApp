@@ -9,7 +9,7 @@ const Header = () => {
     localStorage.removeItem("username"); // Clear the authentication token from local storage
 
     // Redirect to the login page or another appropriate page
-    history("/login");
+    history("/");
 
     // Show a toast message to confirm sign-out (optional)
     toast.dismiss(); // Close the toast
